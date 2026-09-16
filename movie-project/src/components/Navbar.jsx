@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router";
+import { Link } from "react-router";
 
 function Navbar() {
     return (
@@ -16,7 +16,7 @@ function Navbar() {
                             alt="Flowbite Logo"
                         />
                         <span className="self-center text-xl text-heading font-semibold whitespace-nowrap">
-                            Flowbite
+                            Vega Movie
                         </span>
                     </a>
                     <div className="flex items-center md:order-2">
@@ -132,27 +132,27 @@ function Navbar() {
                         </div>
                         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
                             <li>
-                                <Link 
+                                <Link
                                     to="/"
-                                    className="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
+                                    className="block py-2 px-3 text-black bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
                                     aria-current="page"
                                 >
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                 <Link 
+                                <Link
                                     to="/movie"
-                                    className="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
+                                    className="block py-2 px-3 text-black bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
                                     aria-current="page"
                                 >
                                     Movie
                                 </Link>
                             </li>
                             <li>
-                                 <Link 
+                                <Link
                                     to="/tvshow"
-                                    className="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
+                                    className="block py-2 px-3 text-black bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
                                     aria-current="page"
                                 >
                                     TV Show
@@ -168,3 +168,4 @@ function Navbar() {
 }
 
 export default Navbar
+
